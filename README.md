@@ -2,7 +2,10 @@
 :blush::blush::blush::blush::blush::blush::blush:
 
 使用PyQt5制作的一个简易的小黄人风格的时间管理器.
+
 <img width="484" alt="Snipaste_2025-01-19_12-42-26" src="https://github.com/user-attachments/assets/cb3fec19-36cc-4f36-a23c-e941c0d46d4d" />
+
+
 功能概述:
 可创建任务,任务分类,开始任务,番茄钟,历史记录,历史记录分类等,详见report.pdf内的使用说明书.
 
