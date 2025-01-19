@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HistoryWindow</class>
+ <widget class="QMainWindow" name="HistoryWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>508</width>
+    <height>687</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>501</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-911</y>
+       <width>482</width>
+       <height>1600</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>400</width>
+       <height>1600</height>
+      </size>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>371</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:30px;
+border:2px solid rgb(255, 255, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>历史记录查看</string>
+      </property>
+     </widget>
+     <widget class="QScrollArea" name="scrollArea_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>120</y>
+        <width>431</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1000</width>
+         <height>600</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>1000</width>
+         <height>600</height>
+        </size>
+       </property>
+       <widget class="QListWidget" name="showHistoryLW">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1001</width>
+          <height>611</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>400</y>
+        <width>451</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:30px;
+border:2px solid rgb(255, 255, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>历史记录统计-按日期分类</string>
+      </property>
+     </widget>
+     <widget class="QScrollArea" name="scrollArea_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>480</y>
+        <width>431</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>412</width>
+         <height>500</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>410</width>
+         <height>500</height>
+        </size>
+       </property>
+       <widget class="QListWidget" name="historyStatisticLW">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>411</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>760</y>
+        <width>441</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:30px;
+border:2px solid rgb(255, 255, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>历史记录统计-按任务类别分类</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="clearHistoryButton">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>1540</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>清空历史记录</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>1000</y>
+        <width>331</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:30px;
+border:2px solid rgb(255, 255, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>分类记录统计与饼图</string>
+      </property>
+     </widget>
+     <widget class="QListView" name="listView">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-120</y>
+        <width>521</width>
+        <height>2021</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image:url(:/background/resource/background/bg11.jpg)</string>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="kindTab">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>830</y>
+        <width>431</width>
+        <height>161</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="plotCanvas">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>1070</y>
+        <width>431</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>listView</zorder>
+     <zorder>label</zorder>
+     <zorder>scrollArea_2</zorder>
+     <zorder>label_2</zorder>
+     <zorder>scrollArea_3</zorder>
+     <zorder>label_3</zorder>
+     <zorder>clearHistoryButton</zorder>
+     <zorder>label_4</zorder>
+     <zorder>kindTab</zorder>
+     <zorder>plotCanvas</zorder>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

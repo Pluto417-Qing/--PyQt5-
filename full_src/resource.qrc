@@ -1,0 +1,35 @@
+<RCC>
+  <qresource prefix="picture">
+    <file>resource/pic/f915d427c7ce4ae8afb9ab696751defe.ico</file>
+    <file>resource/pic/1.ico</file>
+    <file>resource/pic/2.ico</file>
+    <file>resource/pic/3.ico</file>
+    <file>resource/pic/4.ico</file>
+    <file>resource/pic/5.ico</file>
+    <file>resource/pic/6.ico</file>
+    <file>resource/pic/7.ico</file>
+    <file>resource/pic/8.ico</file>
+  </qresource>
+  <qresource prefix="background">
+    <file>resource/background/yellow.jpg</file>
+    <file>resource/background/bg9.jpg</file>
+    <file>resource/background/bg10.jpg</file>
+    <file>resource/background/bg11.jpg</file>
+    <file>resource/background/1_2715805632b805e9717380df91599d41.jpg</file>
+    <file>resource/background/2-200506103611T1.jpg</file>
+    <file>resource/background/bg1.jpg</file>
+    <file>resource/background/bg2.jpg</file>
+    <file>resource/background/bg3.jpg</file>
+    <file>resource/background/bg4.jpg</file>
+    <file>resource/background/bg5.jpg</file>
+    <file>resource/background/bg6.jpg</file>
+  </qresource>
+  <qresource prefix="icon">
+    <file>resource/icon/fanqie.ico</file>
+    <file>resource/icon/fanqie2 .ico</file>
+    <file>resource/icon/1.ico</file>
+    <file>resource/icon/2.ico</file>
+    <file>resource/icon/ajax-loading.gif</file>
+    <file>resource/icon/doc.ico</file>
+  </qresource>
+</RCC>

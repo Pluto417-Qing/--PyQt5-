@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tomatoWindow</class>
+ <widget class="QMainWindow" name="tomatoWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>505</width>
+    <height>690</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListView" name="listView">
+    <property name="geometry">
+     <rect>
+      <x>-5</x>
+      <y>-9</y>
+      <width>511</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/background/resource/background/bg9.jpg)</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="tomato10">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>250</y>
+      <width>100</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+border-radius:20px;
+border:2px solid rgb(255, 255, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>10分钟</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="tomato20">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>250</y>
+      <width>100</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+border-radius:20px;
+border:2px solid rgb(255, 255, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>20分钟</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="tomato30">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>320</y>
+      <width>100</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+border-radius:20px;
+border:2px solid rgb(255, 255, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>30分钟</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="tomato45">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>320</y>
+      <width>100</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+border-radius:20px;
+border:2px solid rgb(255, 255, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>45分钟</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startTomato">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>450</y>
+      <width>251</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Gadugi</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:30px;
+border:2px solid rgb(255, 255, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>Start or Pause</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tomatoTimeBoard">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>311</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>50</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>00:00</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="editTomato">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>390</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+border-radius:20px;
+border:2px solid rgb(255, 255, 0);
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>390</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+border-radius:20px;
+border:2px solid rgb(255, 255, 0);
+</string>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="text">
+     <string>自定义时间</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

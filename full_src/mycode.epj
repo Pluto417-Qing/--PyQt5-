@@ -1,0 +1,125 @@
+{
+  "header": {
+    "comment": "eric project file for project mycode",
+    "copyright": "Copyright (C) 2024 , ",
+    "saved": "2024-11-28, 11:39:35"
+  },
+  "project": {
+    "AUTHOR": "",
+    "CHECKERSPARMS": {},
+    "DESCRIPTION": "",
+    "DOCSTRING": "",
+    "DOCUMENTATIONPARMS": {},
+    "EMAIL": "",
+    "EMBEDDED_VENV": false,
+    "EOL": 0,
+    "FILETYPES": {
+      "*.cfg": "OTHERS",
+      "*.epj": "OTHERS",
+      "*.ini": "OTHERS",
+      "*.json": "OTHERS",
+      "*.md": "OTHERS",
+      "*.py": "SOURCES",
+      "*.py3": "SOURCES",
+      "*.pyw": "SOURCES",
+      "*.pyw3": "SOURCES",
+      "*.qm": "TRANSLATIONS",
+      "*.qrc": "RESOURCES",
+      "*.rst": "OTHERS",
+      "*.toml": "OTHERS",
+      "*.ts": "TRANSLATIONS",
+      "*.txt": "OTHERS",
+      "*.ui": "FORMS",
+      "*.yaml": "OTHERS",
+      "*.yml": "OTHERS",
+      "GNUmakefile": "OTHERS",
+      "Makefile": "OTHERS",
+      "README": "OTHERS",
+      "README.*": "OTHERS",
+      "makefile": "OTHERS"
+    },
+    "FORMS": [
+      "MainWindow.ui",
+      "WelcomeWindow.ui",
+      "createTab.ui",
+      "historyWindow.ui",
+      "taskCreator.ui",
+      "taskWindow.ui",
+      "tomatoWindow.ui"
+    ],
+    "HASH": "e9df82e60346a428de9214c8a7232b5c29087793",
+    "IDLPARAMS": {
+      "DefinedNames": [],
+      "IncludeDirs": [],
+      "UndefinedNames": []
+    },
+    "LEXERASSOCS": {},
+    "LICENSE": "",
+    "MAINSCRIPT": "",
+    "MAKEPARAMS": {
+      "MakeEnabled": false,
+      "MakeExecutable": "",
+      "MakeFile": "",
+      "MakeParameters": "",
+      "MakeTarget": "",
+      "MakeTestOnly": true
+    },
+    "MIXEDLANGUAGE": false,
+    "OTHERS": [
+      "history.txt",
+      "mycode.epj"
+    ],
+    "OTHERTOOLSPARMS": {},
+    "PACKAGERSPARMS": {},
+    "PROGLANGUAGE": "Python3",
+    "PROJECTTYPE": "PyQt5",
+    "PROJECTTYPESPECIFICDATA": {},
+    "RCCPARAMS": {
+      "CompressLevel": 0,
+      "CompressionDisable": false,
+      "CompressionThreshold": 70,
+      "PathPrefix": ""
+    },
+    "RESOURCES": [
+      "resource.qrc"
+    ],
+    "SOURCES": [
+      "CallCreateTab.py",
+      "CallHistoryWIndow.py",
+      "CallHistoryWindow.py",
+      "CallMainWindow.py",
+      "CallTaskCreator.py",
+      "CallTaskWindow.py",
+      "CallTomatoWindow.py",
+      "CallWelcomeWindow.py",
+      "Ui_MainWindow.py",
+      "Ui_WelcomeWindow.py",
+      "Ui_createTab.py",
+      "Ui_historyWindow.py",
+      "Ui_taskCreator.py",
+      "Ui_taskWindow.py",
+      "Ui_tomatoWindow.py",
+      "main.py",
+      "resource_rc.py"
+    ],
+    "SOURCESDIR": "",
+    "SPELLEXCLUDES": "",
+    "SPELLLANGUAGE": "en_US",
+    "SPELLWORDS": "",
+    "TESTING_FRAMEWORK": "",
+    "TRANSLATIONEXCEPTIONS": [],
+    "TRANSLATIONPATTERN": "",
+    "TRANSLATIONS": [],
+    "TRANSLATIONSBINPATH": "",
+    "TRANSLATIONSOURCESTARTPATH": "",
+    "UICPARAMS": {
+      "Package": "",
+      "PackagesRoot": "",
+      "RcSuffix": ""
+    },
+    "VCS": "None",
+    "VCSOPTIONS": {},
+    "VCSOTHERDATA": {},
+    "VERSION": "0.1"
+  }
+}
